@@ -1,6 +1,6 @@
 # Groq Transcriber
 
-**Groq Transcriber** is a lightweight, system tray application that allows users to record audio, transcribe it using the Groq API, and paste the transcribed text into any application. It supports hotkey toggling for recording and provides a simple settings interface for configuring the API key and hotkey.
+**Groq Transcriber** is a lightweight, system tray application that allows users to record audio, transcribe it using the Groq API, and paste the transcribed text into any application. It supports hotkey toggling for recording and provides a simple settings interface for configuring the API key and hotkey. Its basically a bare bones super whisper clone.
 
 ## Features
 - **Hotkey Toggle**: Start and stop recording with a customizable hotkey (default: `ctrl+alt+r`).
@@ -42,7 +42,7 @@
 - Enter your Groq API key and save.
 
 ### Recording Audio
-- Press the hotkey (default: `ctrl+alt+r`) to start recording.  
+- Press the hotkey (default: `ctrl+space`) to start recording.  
 - Press the hotkey again to stop recording and process the audio.
 
 ### Transcription
