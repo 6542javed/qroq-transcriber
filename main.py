@@ -41,7 +41,7 @@ def get_hotkey():
     config = load_config()
     if 'HOTKEY' in config and 'shortcut' in config['HOTKEY']:
         return config['HOTKEY']['shortcut']
-    return "ctrl+alt+r"  # Default hotkey
+    return "ctrl+space"  # Default hotkey
 
 # --- Global Hotkey Registration ---
 
